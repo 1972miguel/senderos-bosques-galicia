@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bosque-verde: #228b22;
+  --color-bosque-oscuro: #1a3c1a;
+}
+
+body {
+  background-color: var(
+    --color-gray-900,
+    #111827
+  ); /* fallback si no hay gray-900 */
+  color: white;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.bosque-container {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}

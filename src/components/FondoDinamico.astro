@@ -1,0 +1,12 @@
+---
+const { imagen = 'fragas-eume.jpg' } = Astro.props;
+---
+
+<div class="fixed inset-0 z-[-1] overflow-hidden">
+  <img
+    src={`/assets/${imagen}`}
+    alt="Bosque gallego - Fragas do Eume"
+    class="w-full h-full object-cover opacity-60"
+  />
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/60"></div>
+</div>
